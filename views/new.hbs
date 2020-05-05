@@ -1,0 +1,22 @@
+<form class="form" action='/todo' method='post'>
+    <div class="form-group">
+        <label for='title'>Title</label>
+        <input type='text' class='form-control' id='title' name='title' placeholder="Enter a Todo">
+    </div>
+     <div class="form-group">
+        <label for='description'>Title</label>
+        <textarea type='text' class='form-control' id='description' name='description' placeholder="Enter a description"></textarea>
+    </div>
+    <div class="form-group">
+        <label for='Priority'>Priority</label>
+        <select class="custom-select" id="inputGroupSelect04" name='priority'>
+        <option selected>Choose...</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+    </select>
+    </div>
+   <button type="submit" class="btn btn-primary success">
+       Create a todo
+   </button>
+</form>

@@ -1,0 +1,11 @@
+<div class="panel-body">
+    <h3>{{title}}</h3>
+    {{description}}
+</div>
+
+<a type="button" class="btn btn-warning mt-5" href="/todo/{{id}}/edit">Edit Todo</a>
+
+
+<form class="form" action='/todo/{{id}}?_method=DELETE' method='post'>
+    <button type="submit" class="btn btn-danger mt-5">Delete</button>
+</form>
